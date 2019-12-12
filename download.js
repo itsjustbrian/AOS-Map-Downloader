@@ -19,6 +19,7 @@ const AOS_DOWNLOAD_LINK = AOS_DOMAIN + '/dl.php';
 const AOS_VIEW_LINK = AOS_DOMAIN + '/view.php';
 const VERSION_EXTENSION = (num) => `_v${num}`;
 
+// Change these to download specific maps
 const STARTING_MAP_ID = 0;
 const CHUNK_SIZE = 15;
 const SHOULD_LOOP = true;
